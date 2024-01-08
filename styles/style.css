@@ -11,6 +11,8 @@ main {
     width: 1320px;
     height: 600px;
     background-image: url('../images/resources/Banner\ Image.png');
+    border-radius: 16px;
+    
 }
 
 .new-year {
