@@ -12,7 +12,7 @@ main {
     height: 600px;
     background-image: url('../images/resources/Banner\ Image.png');
     border-radius: 16px;
-    
+
 }
 
 .new-year {
@@ -86,4 +86,79 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+/* welcome party */
+.section3 {
+    display: flex;
+    position: absolute;
+    top: 1590px;
+    justify-content: space-between;
+    padding: 126px;
+    gap: 94px;
+}
+
+.sec3img {
+    position: relative;
+}
+
+.new image {
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.008px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+h2 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    width: 642px;
+}
+
+.sec3p {
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-bottom: 24px;
+}
+
+.content {
+    padding-top: 76px;
+}
+
+.content h2 {
+    margin: 0px;
+    margin-bottom: 24px;
+}
+
+.section-welcome {
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+}
+
+.content .button {
+    color: #FFF;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    list-style: none;
 }
